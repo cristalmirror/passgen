@@ -10,5 +10,19 @@ For compile this project, you need install maven Framework to Java lenguaje, and
 `mvn compile`
 2:
 `mvn packages`
-
 With this commands the code, has been compiled and you cam execute the .jar result in target directory.
+
+# execution
+
+For Fibertel passwords:
+
+Fibertel have a system to generate passwords based in a DNI numbers, because yor can create up to 50.000.000 of passwords. Well
+the command have this parameters:
+`java -jar passgen-0.1.jar -fibertel 50000000`
+
+you can use a second parameter of smaller size if you have at aproximated age.
+
+For Telecentro passwords:
+`java -jar passgen-0.1.jar -telecentro 0`
+
+
